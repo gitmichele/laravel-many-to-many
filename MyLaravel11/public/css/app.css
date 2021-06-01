@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: aliceblue;
+  line-height: 100px;
+}
+
+main .container {
+  padding: 80px 0;
+}
+
+main ul {
+  list-style: none;
+}
+
+main ul li {
+  margin: 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
+main ul li .mini-title {
+  font-weight: 600;
+}
+
